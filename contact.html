@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        header {
+            height: 638px;
+            background-image: url(breadcrumb-normal.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: aliceblue;
+        }
+
+        a.nav-link:hover {
+            border-bottom: solid 2px #f03250;
+            transition: 0.9s;
+            color: #fff
+        }
+
+        .the-nav {
+
+            padding-top: 14px;
+
+        }
+
+        .navcontent {
+            padding-top: 13%;
+            text-align: center;
+        }
+
+        .navcontent span {
+            font-size: 14px;
+            color: #f15d44;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 600;
+        }
+
+        .navcontent h1 {
+            font-size: 40px;
+            color: #ffffff;
+            font-weight: 700;
+            margin-top: 11px;
+            margin-bottom: 18px;
+        }
+
+        .navcontent button {
+
+            border: none;
+            color: white;
+            font-size: 19px;
+            font-weight: 500;
+        }
+
+        .navcontent p {
+            color: #a8a8a8;
+            margin-bottom: 44px
+        }
+
+        a.navbar-brand span {
+            color:
+        }
+
+
+        nav a {
+            color: #fff;
+            font-size: 20px;
+        }
+
+        nav ul li {
+            padding-right: 20px;
+        }
+
+        .navcontent {
+            padding-top: 5%;
+            text-align: center;
+        }
+
+        .navcontent .option {
+            font-size: 22px
+        }
+
+        .navcontent span {
+            font-size: 14px;
+            color: #f03250;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 600;
+        }
+
+        .navcontent h1 {
+            font-size: 72px;
+            color: #ffffff;
+            font-weight: 600;
+            margin-top: 11px;
+            margin-bottom: 18px;
+        }
+
+        .navcontent button {
+            background: linear-gradient(to right, #eb3c5a 0%, #f67831 100%), linear-gradient(to right, #eb3c5a 0%, #f67831 100%);
+            width: 200px;
+            height: 42px;
+            border: none;
+            color: white;
+            font-size: 19px;
+            font-weight: 500;
+        }
+
+        .navcontent p {
+            color: #ffffff;
+            margin-bottom: 44px
+        }
+
+        .navcontent i {
+            color: #f03250;
+        }
+
+        .add-add :hover {
+            border: none !important
+        }
+
+        .map-part {
+            padding-top: 80px
+        }
+
+        .contact-part {
+            padding-top: 30px;
+                padding-bottom: 20px;
+        }
+        .contact-part form input{
+            width: 100%;
+    height: 50px;
+    background: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    border-radius: 2px;
+    padding-left: 24px;
+    padding-right: 5px;
+    font-size: 15px;
+    color: #777c81;
+    margin-bottom: 20px;
+        }
+        
+        
+    .contact-part form textarea    {
+            width: 100%;
+    height: 110px;
+    background: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    border-radius: 2px;
+    padding-left: 24px;
+    padding-right: 5px;
+    font-size: 15px;
+    color: #777c81;
+    margin-bottom: 34px;
+    padding-top: 14px;
+        }
+        
+        
+      .contact-part form button  {
+                background-color: #f03250;
+    border: none;
+    color: #fff;
+       padding: 10px 25px 13px;
+        }
+        .contact-us {
+            padding-left: 10px;
+        }
+        contact-us h2{
+            padding-bottom: 10px
+        }
+ .sub {
+           background: #f9f9f9;
+    padding: 50px 0 40px;
+        }
+
+        .sub h1 {
+            color: #323232;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .sub p {
+            font-size: 15px;
+            color: #707070;
+            margin-bottom: 0;
+        }
+
+        .sub form {
+            padding-top: 20px
+        }
+
+        .sub form input {
+            width: 335px;
+            border: none;
+            height: 50px
+        }
+
+        .sub form button {
+            height: 50px;
+            width: 105px;
+
+            border-radius: 2px;
+            border: none;
+            color: #fff;
+            background: #f03250;
+        }
+
+        .footer-ul ul li {
+            float: left;
+            width: 50%;
+            list-style: none;
+        }
+
+        .social {}
+
+        .social a {
+
+            font-size: 16px;
+            color: #000;
+            width: 41px;
+            height: 41px;
+            background: #303030;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 41px;
+            -webkit-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
+            margin-right: 3px;
+            background: none;
+        }
+
+        .social a i {
+            padding-right: 15px;
+            color: #707070;
+            text-align: center;
+            font-size: 15px
+        }
+
+        footer {
+            padding-top: 50px;
+            padding-bottom: 30px;
+        }
+
+        .footer__widget ul {
+            width: 50%;
+            float: left;
+        }
+
+        .footer__widget ul li {
+            list-style: none;
+            color: #707070;
+            padding-bottom: 10px
+        }
+
+        .footer__widget ul li a {
+            color: #707070;
+            text-decoration: none;
+        }
+        .open p{
+            padding-left: 17px;
+            padding-top: 10px
+        }
+        .contact-us p{
+            padding-left: 15px;
+            padding-top: 10px
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg  ">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fas fa-bars" style="color: #fff"></i> </span>
+                </button>
+
+                <div class="collapse navbar-collapse the-nav" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="./about.html">About <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="./listing.html">Listing <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="./contact.html">Contact <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./blog.html">Blog</a>
+                        </li>
+                       
+                        <li class="nav-item  add-add"> <a class="nav-link " href="#" tabindex="-1" aria-disabled="true" style="padding-left: 45px">
+                                <button class="primary-btn" style="    background-color: #f03250;
+    border: none;
+    color: #fff;
+    padding: 4px 19px 6px; ">+ADD LISTING</button>
+                                <i class="fas fa-user" style="    padding-top: 8px;
+    border: 1px solid #fff;
+    border-radius: 73%;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;"></i></a> </li>
+                    </ul>
+
+                </div>
+            </nav>
+            <hr>
+
+
+
+            <div class="navcontent">
+
+                <h1>Contact</h1>
+                <div class="option">
+                    <a>
+
+                        <i class="fa fa-home"></i>
+                        Home >
+                    </a>
+                    <span>Contact</span>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+    </header>
+
+
+    <section class="map-part">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423283.43556031643!2d-118.69192431097179!3d34.020730495817475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1586670019340!5m2!1sen!2sbd" height="550" width="100%" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact-part">
+        <div class="container">
+            <div class="row">
+            <div class="col-sm-4">
+                <div class="contact-us">
+                    <h2>Contact Us</h2>
+                    <p><i class="fa fa-send"></i> 40 Baria Sreet 133/2 NewYork City</p>
+                    <p><i class="fa fa-envelope"></i> hello@atheme.com</p>
+                    <p><i class="fa fa-phone"></i> +88-111-555-666</p>
+                </div>
+                <div class="open">
+                    <h2>Opening Hours</h2>
+                    <p><i class="fa fa-clock-o"></i> Mon - Fri: 6:30am - 07:45pm</p>
+                    <p><i class="fa fa-clock-o"></i> Sat - Sun: 8:30am - 05:45pm</p>
+                </div>
+
+            </div>
+            <div class="col-sm-8">
+                <form>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <input type="text" placeholder="First Name">
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <input type="text" placeholder="Last Name">
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <input type="text" placeholder="Your Email">
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <input type="text" placeholder="Phone Number">
+                        </div>
+                    </div>
+                    <textarea placeholder="Message"></textarea>
+<button>SEND MESSAGE</button>
+                </form>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+ <section class="sub">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1>Subscribe Newsletter</h1>
+                    <p>Subscribe to our newsletter and don’t miss anything
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <form>
+                        <input type="email" placeholder="  Email...">
+                        <button type="submit">Subscribe</button>
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+  <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="footer-logo.png" alt="logo" style="padding-bottom: 25px">
+                    <p>Challenging the way things have always been done can lead to creative new options that reward you.</p>
+                </div>
+                <div class="col-sm-4 footer-ul">
+                    <ul>
+                        <li>
+                            <span>Call Us:</span>
+                            <p>
+                                (+12) 345-678-910</p>
+                        </li>
+                        <li>
+                            <span>Email:</span>
+                            <p>info.colorlib@gmail .com
+                            </p>
+                        </li>
+                        <li>
+                            <span>Fax:</span>
+                            <p>(+12) 345-678-910</p>
+                        </li>
+                        <li>
+                            <span>Connect Us:
+                            </span>
+                            <div class="social">
+                                <a><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-pinterest"></i></a>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <div class="footer__widget">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">How it work</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Sign In</a></li>
+                            <li><a href="#">How it Work</a></li>
+                            <li><a href="#">Advantages</a></li>
+                            <li><a href="#">Direo App</a></li>
+                            <li><a href="#">Packages</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <hr>
+            <div class="row">
+                
+                    
+                        <div class="col-sm-7 footer__copyright__text">
+                            <p>
+                                Copyright ©<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+                                <script type="text/javascript">
+                                    document.write(new Date().getFullYear());
+
+                                </script>2020 All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true" style="    color: #f03250;"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                            </p>
+                        </div>
+                        <div class="col-sm-5 footer__copyright__links">
+                            <a href="#">Terms</a>
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Cookie Policy</a>
+                        </div>
+                    </div>
+                </div>
+            
+
+
+
+    </footer>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="popper.min.js" type="text/javascript"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="jquery.magnific-popup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+</body>
+
+</html>
